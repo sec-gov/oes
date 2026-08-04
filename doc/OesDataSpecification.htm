@@ -135,7 +135,7 @@ style='color:#1B1B1B'>Preamble</span></b></p>
 margin-left:0in;line-height:normal;page-break-after:avoid;background:white'><span
 style='color:#1B1B1B'>This document provides the technical specification for
 how a market center, broker or dealer prepares an Order Execution Summary (OES)
-data report pursuant to 17 CFR 242.605(a)(2).ï¿½ The specification does not
+data report pursuant to 17 CFR 242.605(a)(2).  The specification does not
 provide guidance on any rule. </span></p>
 
 <p class=MsoNormal style='margin-top:9.0pt;margin-right:0in;margin-bottom:9.0pt;
@@ -149,8 +149,8 @@ identifying Designated Participants shown below).</span></p>
 <p class=MsoNormal style='margin-top:9.0pt;margin-right:0in;margin-bottom:9.0pt;
 margin-left:0in;line-height:normal;page-break-after:avoid;background:white'><span
 style='color:#1B1B1B'>Please provide any technical input on the OES Data
-Technical Specification via email to StructuredData (at) sec.gov and include ï¿½Order
-Execution Summary dataï¿½ in the Subject line.</span></p>
+Technical Specification via email to StructuredData (at) sec.gov and include “Order
+Execution Summary data” in the Subject line.</span></p>
 
 <p class=MsoNormal style='margin-top:9.0pt;margin-right:0in;margin-bottom:9.0pt;
 margin-left:0in;line-height:normal;page-break-after:avoid;background:white'><b><span
@@ -158,22 +158,22 @@ style='color:#1B1B1B'>I. Definitions</span></b></p>
 
 <p class=MsoNormal style='margin-top:9.0pt;margin-right:0in;margin-bottom:9.0pt;
 margin-left:0in;line-height:normal;background:white'><span style='color:#1B1B1B'>(a)
-ï¿½Designated Participantï¿½ means the Participant with which each market center,
+“Designated Participant” means the Participant with which each market center,
 broker, or dealer has made the arrangements set forth in Section VIII of the
 Plan.</span></p>
 
 <p class=MsoNormal style='margin-top:9.0pt;margin-right:0in;margin-bottom:9.0pt;
 margin-left:0in;line-height:normal;background:white'><span style='color:#1B1B1B'>(b)
-ï¿½Participantï¿½ means a party to the Plan.</span></p>
+“Participant” means a party to the Plan.</span></p>
 
 <p class=MsoNormal style='margin-top:9.0pt;margin-right:0in;margin-bottom:9.0pt;
 margin-left:0in;line-height:normal;background:white'><span style='color:#1B1B1B'>(c)
-ï¿½Planï¿½ means the NMS Plan establishing procedures under Rule 605 of Regulation
+“Plan” means the NMS Plan establishing procedures under Rule 605 of Regulation
 NMS, as amended from time to time in accordance with its provisions.</span></p>
 
 <p class=MsoNormal style='margin-top:9.0pt;margin-right:0in;margin-bottom:9.0pt;
 margin-left:0in;line-height:normal;background:white'><span style='color:#1B1B1B'>(d)
-ï¿½Ruleï¿½ means Rule 605 of Regulation NMS.</span></p>
+“Rule” means Rule 605 of Regulation NMS.</span></p>
 
 <p class=MsoNormal style='margin-top:9.0pt;margin-right:0in;margin-bottom:9.0pt;
 margin-left:0in;line-height:normal;background:white'><span style='color:#1B1B1B'>(e)
@@ -187,14 +187,14 @@ style='color:#1B1B1B'>II. File Type, Compression, and Naming: </span></b></p>
 <p class=MsoNormal style='margin-top:9.0pt;margin-right:0in;margin-bottom:9.0pt;
 margin-left:0in;line-height:normal;background:white'><span style='color:#1B1B1B'>Summary
 monthly reports required under paragraph (a)(2) of the Rule shall be prepared
-in standard, comma-delimited (ï¿½,ï¿½) ASCII format and may be compressed using
+in standard, comma-delimited (“,”) ASCII format and may be compressed using
 standard Zip or Gzip compression. Uncompressed files shall be named according
-to the following convention: ï¿½[reporter identification code][six-digit date
-code (yyyymm)].csvï¿½. A market center, broker, or dealer will use the reporter
+to the following convention: “[reporter identification code][six-digit date
+code (yyyymm)].csv”. A market center, broker, or dealer will use the reporter
 identification code assigned to it pursuant to Section VIII of the Plan. The
 date code shall refer to the calendar month of trading for the report contained
 in the file. Compressed files will be named according to the same convention,
-except that the extension will be ï¿½.zipï¿½ or ï¿½.gzï¿½.</span></p>
+except that the extension will be “.zip” or “.gz”.</span></p>
 
 <p class=MsoNormal style='margin-top:9.0pt;margin-right:0in;margin-bottom:9.0pt;
 margin-left:0in;line-height:normal;page-break-after:avoid;background:white'><b><span
@@ -303,50 +303,30 @@ dealer.</span></p>
   border-left:none;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal;page-break-after:
   avoid'><b><span style='color:black'>Rule Reference<br>
-<<<<<<< HEAD
    (if applicable)</span></b></p>
-=======
-  ï¿½(if applicable)</span></b></p>
->>>>>>> main
   </td>
   <td width="13%" nowrap valign=top style='width:13.74%;border:solid windowtext 1.0pt;
   border-left:none;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal;page-break-after:
   avoid'><b><span style='color:black'>Field Header</span></b></p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border:solid windowtext 1.0pt;
-=======
-  <td width="13%" valign=top style='width:13.5%;border:solid windowtext 1.0pt;
->>>>>>> main
   border-left:none;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal;page-break-after:
   avoid'><b><span style='color:black'>Field Description</span></b></p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border:solid windowtext 1.0pt;
-=======
-  <td width="12%" valign=top style='width:12.98%;border:solid windowtext 1.0pt;
->>>>>>> main
   border-left:none;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal;page-break-after:
   avoid'><b><span style='color:black'>Data Type</span></b></p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border:solid windowtext 1.0pt;
-=======
-  <td width="18%" valign=top style='width:18.36%;border:solid windowtext 1.0pt;
->>>>>>> main
   border-left:none;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal;page-break-after:
   avoid'><b><span style='color:black'>Valid Values<br>
   (specified in the format value description)</span></b></p>
   </td>
-<<<<<<< HEAD
   <td width="22%" colspan=2 valign=top style='width:22.12%;border:solid windowtext 1.0pt;
-=======
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border:solid windowtext 1.0pt;
->>>>>>> main
   border-left:none;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal;page-break-after:
   avoid'><b><span style='color:black'>Additional Notes</span></b></p>
@@ -370,28 +350,19 @@ dealer.</span></p>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
   style='color:black'>DsgntParticipant</span></p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
   style='color:black'>The code identifying the Participant that is acting as
   Designated Participant under Section VIII of the Plan</span></p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
   style='color:black'>String</span></p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
@@ -435,55 +406,6 @@ dealer.</span></p>
   style='color:black'>F - TXSE</span></p>
   </td>
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>A: AMEX</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>B: BSE</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>C: CSE</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>F: TXSE</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>G: 24X</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>H: MIAX</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>I: ISE</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>J: EDGA</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>K: EDGX</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>L: LTSE</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>M: CHX</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>N: NYSE</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>P: ARCA</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>Q: NASDAQ</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>T: FINRA</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>U: MEMX</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>V: IEX</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>W: CBOE</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>X: PHLX</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>Y: BYX</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-  style='color:black'>Z: BZX</span></p>
-  </td>
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'></td>
  </tr>
@@ -505,11 +427,7 @@ dealer.</span></p>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
   style='color:black'>RprtEntityCd</span></p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -517,27 +435,16 @@ dealer.</span></p>
   market center, broker, or dealer, as assigned by a Designated Participant
   pursuant to Section VIII of the Plan</span></p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
   style='color:black'>String</span></p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'></td>
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'></td>
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'></td>
  </tr>
@@ -563,38 +470,23 @@ dealer.</span></p>
   <p class=MsoNormal style='margin-bottom:0in;text-indent:.5in;line-height:
   normal'><span style='color:black'>&nbsp;</span></p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
   style='color:black'>The six-digit code identifying the calendar month of
   trading for the report contained in the file</span></p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
   style='color:black'>Integer</span></p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'></td>
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'></td>
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -618,41 +510,25 @@ dealer.</span></p>
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>Sp500</p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>S&amp;P 500
   Flag</p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>String</p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>Y: NMS stocks
   that are included in the S&amp;P 500 Index as of the first day of that month;
   N: other NMS stocks</p>
   </td>
-<<<<<<< HEAD
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -677,31 +553,19 @@ dealer.</span></p>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
   style='color:black'>OrderSize</span></p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
   style='color:black'>Categorizes by the order notional size buckets</span></p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
   style='color:black'>Integer</span></p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -716,11 +580,7 @@ dealer.</span></p>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
   style='color:black'>200000: &gt;=$200,000</span></p>
   </td>
-<<<<<<< HEAD
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'></td>
  </tr>
@@ -742,32 +602,20 @@ dealer.</span></p>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
   style='color:black'>OrderType</span></p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
   style='color:black'>Order types by which the Rule requires a market center,
   broker, or dealer to categorize its report</span></p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
   style='color:black'>String</span></p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -777,11 +625,7 @@ dealer.</span></p>
   <br>
   </span></p>
   </td>
-<<<<<<< HEAD
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -815,36 +659,21 @@ dealer.</span></p>
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>AvgOrderQty</p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>The average
   order size in shares</p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>Decimal</p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'></td>
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'></td>
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -873,36 +702,21 @@ dealer.</span></p>
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>AvgOrderSize</p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>The average
   notional order size</p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>Decimal</p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'></td>
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'></td>
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -931,36 +745,21 @@ dealer.</span></p>
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>ExctdOrderMidPtAvg</p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>For
   executions of covered orders, the average midpoint</p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>Decimal</p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'></td>
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'></td>
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -990,37 +789,22 @@ dealer.</span></p>
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>PctExctdAtQuotOrBetter</p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>For
   executions of covered orders, the percentage of shares executed at the quote
   or better</p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>Decimal</p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'></td>
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'></td>
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -1049,37 +833,22 @@ dealer.</span></p>
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>PctExctdPI</p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>For
   executions of covered orders, the percentage of shares that received price
   improvement</p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>Decimal</p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'></td>
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'></td>
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -1108,11 +877,7 @@ dealer.</span></p>
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>WghtdAvgPctPI</p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>For
@@ -1121,26 +886,15 @@ dealer.</span></p>
   less the cumulative amount that prices were executed outside the quote
   divided by sum of the average midpoint times the number of shares executed</p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>Decimal</p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'></td>
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'></td>
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -1170,36 +924,21 @@ dealer.</span></p>
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>AvgEffctvSprdPct</p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>For
   executions of covered orders, the average percentage effective spread</p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>Decimal</p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'></td>
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'></td>
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -1231,11 +970,7 @@ dealer.</span></p>
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>AvgPctQuotSprd</p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>For
@@ -1243,26 +978,15 @@ dealer.</span></p>
   calculated as the average quoted spread divided by the average midpoint for
   such orders</p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>Decimal</p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'></td>
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'></td>
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -1292,37 +1016,22 @@ dealer.</span></p>
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>AvgEFQPct</p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>For
   executions of covered orders, the average effective spread divided by the
   average quoted spread, expressed as a percentage</p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>Decimal</p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'></td>
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'></td>
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -1352,37 +1061,22 @@ dealer.</span></p>
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>AvgRealSprdPct15sec</p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>For
   executions of covered orders, the average percentage realized spread as
   calculated 15 seconds after the time of execution</p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>Decimal</p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'></td>
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'></td>
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -1412,37 +1106,22 @@ dealer.</span></p>
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>AvgRealSprdPct1min</p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>For
   executions of covered orders, the average percentage realized spread as
   calculated 1 minute after the time of execution</p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>Decimal</p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'></td>
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'></td>
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -1472,41 +1151,25 @@ dealer.</span></p>
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>WghtdAvgExctnTime</p>
   </td>
-<<<<<<< HEAD
   <td width="15%" valign=top style='width:15.48%;border-top:none;border-left:
-=======
-  <td width="13%" valign=top style='width:13.5%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>For
   executions of covered orders, the share-weighted average execution speed, in
   milliseconds</p>
   </td>
-<<<<<<< HEAD
   <td width="8%" valign=top style='width:8.44%;border-top:none;border-left:
-=======
-  <td width="12%" valign=top style='width:12.98%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>Decimal</p>
   </td>
-<<<<<<< HEAD
   <td width="22%" valign=top style='width:22.08%;border-top:none;border-left:
-=======
-  <td width="18%" valign=top style='width:18.36%;border-top:none;border-left:
->>>>>>> main
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
   style='color:black'>&nbsp;</span></p>
   </td>
-<<<<<<< HEAD
   <td width="22%" colspan=2 valign=top style='width:22.12%;border-top:none;
-=======
-  <td width="23%" colspan=2 valign=top style='width:23.28%;border-top:none;
->>>>>>> main
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
@@ -1530,11 +1193,7 @@ dealer.</span></p>
   <td width=176 style='border:none'></td>
   <td width=104 style='border:none'></td>
   <td width=69 style='border:none'></td>
-<<<<<<< HEAD
   <td width=123 style='border:none'></td>
-=======
-  <td width=96 style='border:none'></td>
->>>>>>> main
   <td width=114 style='border:none'></td>
   <td width=0 style='border:none'></td>
  </tr>
@@ -1561,7 +1220,7 @@ Participant field.</span></p>
 title=""><span class=MsoFootnoteReference><span style='font-size:12.0pt'><span
 class=MsoFootnoteReference><span style='font-size:12.0pt;line-height:107%;
 font-family:"Times New Roman",serif'>[1]</span></span></span></span></a><span
-style='font-size:12.0pt'> ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ For example, a cumulative notional value of
+style='font-size:12.0pt'>           For example, a cumulative notional value of
 covered orders of 12.3456789 would round to 12.345679.</span></p>
 
 </div>
@@ -1573,7 +1232,7 @@ covered orders of 12.3456789 would round to 12.345679.</span></p>
 title=""><span class=MsoFootnoteReference><span style='font-size:12.0pt'><span
 class=MsoFootnoteReference><span style='font-size:12.0pt;line-height:107%;
 font-family:"Times New Roman",serif'>[2]</span></span></span></span></a><span
-style='font-size:12.0pt'> ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ For example, if the reporting entity
+style='font-size:12.0pt'>           For example, if the reporting entity
 received orders but did not execute shares, the reporting entity would only
 provide values for the designated participant code, the reporting entity code,
 the S&amp;P 500 flag, the order type, the order size category, the average
@@ -1589,10 +1248,10 @@ would leave the other fields empty.</span></p>
 title=""><span class=MsoFootnoteReference><span style='font-size:12.0pt'><span
 class=MsoFootnoteReference><span style='font-size:12.0pt;line-height:107%;
 font-family:"Times New Roman",serif'>[3]</span></span></span></span></a><span
-style='font-size:12.0pt'> ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ A market center, broker, or dealer may
+style='font-size:12.0pt'>           A market center, broker, or dealer may
 maintain its own Internet site at which its files can be downloaded or arrange
 for another person to maintain the Internet site at which the market center,
-broker, or dealerï¿½s files can be downloaded (as well as potentially the files
+broker, or dealer’s files can be downloaded (as well as potentially the files
 of other market centers, brokers, or dealers).</span></p>
 
 </div>
