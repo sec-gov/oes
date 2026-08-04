@@ -80,7 +80,7 @@ var SchemaContent: {
 						"titles": [
 							"Designated Participant"
 						],
-						"dc:description": "The code identifying the Participant that is acting as Designated Participant for the market center, broker, or dealer, as follows: A - AMEX Z - BATS Y - BYX B - BSE W - CBOE M - CHX C - CSE J - EDGA K - EDGX I - ISE Q - NASDAQ T - FINRA N - NYSE P - ARCA X - PHLX V - IEX  L - LTSE H - MIAX U - MEMX."
+						"dc:description": "The code identifying the Participant that is acting as Designated Participant for the market center, broker, or dealer, as follows: A: NYSE American, Z: BZX, Y: BYX, B: Nasdaq BX, M: NYSE Texas, C: NYSE National, J: EDGA, K: EDGX, Q: NASDAQ, T: FINRA, N: NYSE, P: NYSE ARCA, X: Nasdaq PSX, V: IEX, L: LTSE, H: MIAX, U: MEMX, G: 24X, F: TXSE."
 					},
 					{
 						"name": "RprtEntityCd",
@@ -320,7 +320,7 @@ var SchemaContent: {
 }
 
 const DP_NAME: { [key: string]: string } = {
-	"S": "SAMPLE", "A": "Amex", "B": "BSE", "C": "CSE", "M": "CHX", "N": "NYSE", "P": "PCX", "T": "NASD", "X": "Phlx", "Y": "CBOE"
+	"A": "NYSE American", "Z": "BZX", "Y": "BYX", "B": "Nasdaq BX", "M": "NYSE Texas", "C": "NYSE National", "J": "EDGA", "K": "EDGX", "Q": "NASDAQ", "T": "FINRA", "N": "NYSE", "P": "NYSE ARCA", "X": "Nasdaq PSX", "V": "IEX", "L": "LTSE", "H": "MIAX", "U": "MEMX", "G": "24X", "F": "TXSE"
 }
 
 const ORDER_TYPES = ["MXXNN", "LYNNN"]
