@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
 		"target": "ES5",
+		"ignoreDeprecations": "6.0",
 		"lib": [
 			"ES5",
 			"DOM"
@@ -12,6 +13,7 @@
 		"strict": true,
 		"allowJs": true,
 		"moduleResolution": "node16",
+		"rootDir": "./src",
 		"outDir": "./dist",
 		"noImplicitAny": true
 	},
