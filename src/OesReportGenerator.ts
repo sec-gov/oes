@@ -472,6 +472,12 @@ for (var i = 0; i < OeTable.length; i++) { OeFormats.push(<string>OeTable[i][4])
 function getOesData() { /* main */
 	const schemaCols = SchemaContent.tables[0].tableSchema.columns;
 	const data = <{ [key: string]: any }[]>CsvContent.data
+	if (data.length === 0) {
+		return [[
+			{ text: TITLE, style: 'header', tags: ['TITLE', '/TITLE'], pageBreak: 'none' },
+			{ text: 'For this month, there is no covered order data to report.', style: 'sectionHeader', tags: ['H2', '/H2'] }
+		]];
+	}
 	let partitions: [string, string, string, { [key: string]: string }[]][] = [];
 	// partition all the rows by Designated Participant, Reporter Code, and Month
 	data.forEach((rowObject, jj) => {
