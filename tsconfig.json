@@ -1,21 +1,20 @@
 {
 	"compilerOptions": {
-		"target": "ES5",
-		"ignoreDeprecations": "6.0",
+		"target": "ES6",
 		"lib": [
-			"ES5",
+			"ES6",
 			"DOM"
 		],
-		"module": "Node16",
+		"module": "esnext",
+		"sourceMap": true,
+		"outDir": "./dist",
+		"strict": true,
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
 		"forceConsistentCasingInFileNames": true,
-		"strict": true,
 		"allowJs": true,
-		"moduleResolution": "node16",
-		"rootDir": "./src",
-		"outDir": "./dist",
 		"noImplicitAny": true
 	},
+	"mode":"development",
 	"exclude": ["node_modules","dist"]
 }
